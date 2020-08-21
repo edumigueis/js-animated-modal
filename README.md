@@ -1,5 +1,5 @@
 # js-animated-modal
-[Live Demo](https://edumigueis.github.io/Word-Counter/)<br><br> A js and gsap animated modal.
+[Live Demo](https://edumigueis.github.io/js-animated-modal/)<br><br> A js and gsap animated modal.
 > Javascript and gsap powered modals. The modals are simple and totally editable, as well as animated. The animations are simple and sleek, and can be edited as you wish. They were made simpler beausae the design is more minimalist and simple animations fit most design needs.
 
 ![](header.png)
