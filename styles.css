@@ -108,7 +108,8 @@ textarea {
   max-width: 270px;
   min-width: 100px;
 }
-.img-modal{
+
+.img-modal {
   width: 400px;
   position: fixed;
   right: calc(50vw - 200px);
@@ -117,10 +118,12 @@ textarea {
   max-height: 500px;
   overflow-y: scroll;
 }
-.img-modal img{
+
+.img-modal img {
   width: 100%;
 }
-.img-modal .caption{
+
+.img-modal .caption {
   color: #fdfdfd;
   font-weight: bold;
   position: absolute;
