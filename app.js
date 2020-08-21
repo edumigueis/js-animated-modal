@@ -1,3 +1,10 @@
+/*!
+ * app.js (https://github.com/edumigueis/js-animated-modal)
+ * Version: 1.0
+ * Author: Eduardo Migueis @edumigueis
+ * Github:https://github.com/edumigueis/js-animated-modal
+ * app.js Copyright Eduardo Migueis 2020.
+ */
 var modal = document.querySelector(".modal");
 var backdrop = document.querySelector(".backdrop");
 modal.style.opacity = 0;
