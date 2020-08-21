@@ -65,7 +65,7 @@ button:active {
 .modal {
   display: none;
   position: fixed;
-  z-index: 200;
+  z-index: 20;
   top: 100px;
   right: calc(50vw - 285px);
   width: 570px;
@@ -98,7 +98,7 @@ button:active {
   top: 0;
   left: 0;
   background: rgba(0, 0, 0, 0.5);
-  z-index: 100;
+  z-index: 10;
 }
 
 textarea {
@@ -107,4 +107,23 @@ textarea {
   width: 85%;
   max-width: 270px;
   min-width: 100px;
+}
+.img-modal{
+  width: 400px;
+  position: fixed;
+  right: calc(50vw - 200px);
+  display: none;
+  z-index: 30;
+  max-height: 500px;
+  overflow-y: scroll;
+}
+.img-modal img{
+  width: 100%;
+}
+.img-modal .caption{
+  color: #fdfdfd;
+  font-weight: bold;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
 }
