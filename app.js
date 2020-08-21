@@ -3,18 +3,18 @@ var backdrop = document.querySelector(".backdrop");
 modal.style.opacity = 0;
 backdrop.style.opacity = 0;
 let duration = 0.5;
+let timeOut = duration * 1100;
 
 function openModal() {
   modal.style.display = "block";
   backdrop.style.display = "block";
-  gsap.to(modal, duration, { opacity: 1 });
-  gsap.to(backdrop, duration, { opacity: 1 });
+  gsap.fromTo(modal, duration, { opacity: 1, y: 40 }, { opacity: 1, y: 0 });
+  gsap.fromTo(backdrop, duration, { opacity: 1, y: 40 }, { opacity: 1, y: 0 });
 }
 function closeModal() {
-  gsap.to(modal, duration, { opacity: 0 });
-  gsap.to(backdrop, duration, { opacity: 0 });
+  gsap.fromTo(modal, duration, { opacity: 1, y: 0 }, { opacity: 0, y: 40 });
+  gsap.fromTo(backdrop, duration, { opacity: 1, y: 0 }, { opacity: 0, y: 40 });
 
-  let timeOut = duration * 130;
   setTimeout(function () {
     modal.style.display = "none";
     backdrop.style.display = "none";
