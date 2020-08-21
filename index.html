@@ -10,7 +10,7 @@
   </head>
 
   <body>
-    <div class="backdrop" onclick="closeModal()"></div>
+    <div class="backdrop" onclick="closeModal(event)"></div>
     <div class="modal">
       <div class="inner-modal-prop">
         <div class="pt">
@@ -20,11 +20,11 @@
           <div class="inner-pt">
             <h1>Edit your Statement</h1>
             <div class="modal-input">
-              <textarea rows="3"></textarea>
+              <textarea rows="3" id="quote"></textarea>
             </div>
             <div class="modal-actions">
-              <button type="button" class="btn-cancel" onclick="closeModal()">Cancel</button>
-              <button type="button" class="btn-confirm" onclick="closeModal()">Confirm</button>
+              <button type="button" class="btn-cancel" onclick="closeModal(event)">Cancel</button>
+              <button type="button" class="btn-confirm" onclick="closeModal(event)">Confirm</button>
             </div>
           </div>
         </div>
@@ -34,7 +34,7 @@
       <div class="wrapper">
         <div class="inner-modal">
           <h1>Hey, wanna see something cool?</h1>
-          <p>Check out this amazing modal</p>
+          <p id="message">Check out this amazing modal</p>
           <button onclick="openModal()">Open Modal</button>
         </div>
       </div>

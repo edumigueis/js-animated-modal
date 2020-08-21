@@ -4,6 +4,8 @@ modal.style.opacity = 0;
 backdrop.style.opacity = 0;
 let duration = 0.5;
 let timeOut = duration * 1100;
+let quote = document.getElementById("quote");
+let message = document.getElementById("message");
 
 function openModal() {
   modal.style.display = "block";
@@ -18,7 +20,7 @@ function openModal() {
     {
       opacity: 1,
       y: 0,
-      ease: Power1.easeOut
+      ease: Power1.easeOut,
     }
   );
   gsap.fromTo(
@@ -31,12 +33,16 @@ function openModal() {
     {
       opacity: 1,
       y: 0,
-      ease: Power1.easeOut
+      ease: Power1.easeOut,
     }
   );
 }
 
-function closeModal() {
+function closeModal(event) {
+  if (quote.value != "" && !event.target.classList.contains("btn-cancel")) {
+    message.innerHTML = quote.value;
+  }
+
   gsap.fromTo(
     modal,
     duration,
@@ -47,7 +53,7 @@ function closeModal() {
     {
       opacity: 0,
       y: 40,
-      ease: Power1.easeOut
+      ease: Power1.easeOut,
     }
   );
   gsap.fromTo(
@@ -60,7 +66,7 @@ function closeModal() {
     {
       opacity: 0,
       y: 40,
-      ease: Power1.easeOut
+      ease: Power1.easeOut,
     }
   );
 
