@@ -10,8 +10,8 @@ The interface and ui was inspired by fashion websites and related topics.
 
 ## Meta
 
-Eduardo Migueis
+[Eduardo Migueis](https://github.com/edumigueis)
 
 Distributed under the MIT license. See ``LICENSE`` for more information.
 
-[https://github.com/edumigueis/Word-Counter](https://github.com/edumigueis)
+[https://github.com/edumigueis/js-animated-modal](https://github.com/edumigueis/js-animated-modal)
