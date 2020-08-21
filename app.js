@@ -7,5 +7,5 @@ function openModal(){
   backdrop.style.display = "block";
 }
 function closeModal(){
-  alert("u");
+  
 }
