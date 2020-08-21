@@ -17,7 +17,6 @@ body {
 }
 
 /* Container for Modal Control + Modal Control */
-
 .demo-container {
   height: 100%;
   display: flex;
@@ -25,15 +24,18 @@ body {
   align-items: center;
 }
 
-.wrapper{
+.wrapper {
   background: #fefefe;
 }
-.inner-modal{
+
+.inner-modal {
   padding: 40px;
 }
-h1{
+
+h1 {
   margin-top: 0;
 }
+
 button {
   padding: 1rem 1.5rem;
   background-color: #222222;
@@ -46,12 +48,14 @@ button {
   margin-right: 10px;
   margin-top: 20px;
 }
-button.btn-cancel{
+
+button.btn-cancel {
   border: 2px solid #222222;
   background: transparent;
   color: #222222;
   padding: calc(1rem - 2px) calc(1.5rem - 2px);
 }
+
 button:hover,
 button:active {
   opacity: 0.9;
@@ -68,16 +72,20 @@ button:active {
   background: white;
   box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.4);
 }
-.inner-modal-prop{
+
+.inner-modal-prop {
   display: flex;
 }
-.pt{
+
+.pt {
   flex: 1 1 0px;
 }
-.pt .inner-pt{
+
+.pt .inner-pt {
   padding: 3rem 1rem;
 }
-.pt img{
+
+.pt img {
   width: 100%;
   min-height: 100%;
 }
@@ -93,7 +101,7 @@ button:active {
   z-index: 100;
 }
 
-textarea{
+textarea {
   background: #d6d6d6;
   border: none;
   width: 85%;
