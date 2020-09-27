@@ -4,7 +4,7 @@
 
 ![](header.png)
 
-The interface and ui was inspired by fashion websites and related topics.
+The UI was inspired by fashion websites and related topics.
 
 ![](header2.png)
 
